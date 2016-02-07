@@ -15,7 +15,7 @@ public class ProstiBrojevi {
 			boolean prost = true;
 			// sa drugom for petljom pronalazimo prost broj
 			for (int j = 2; j <= i / 2; j++) {
-				// ako je broj djeljic sa nekim brojem onda nije prost
+				// ako je broj djeljiv sa nekim brojem onda nije prost
 				if (i % j == 0) {
 					// i prost postaje false
 					prost = false;
