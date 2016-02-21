@@ -10,7 +10,8 @@ public class GeometricObject {
 	public GeometricObject() {
 
 	}
-//kontruktor sa data filds
+
+	// kontruktor sa data filds
 	public GeometricObject(String color, boolean filled) {
 		this.color = color;
 		this.filled = filled;
