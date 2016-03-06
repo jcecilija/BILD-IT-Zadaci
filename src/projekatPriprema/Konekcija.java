@@ -12,10 +12,10 @@ public class Konekcija {
 	// konekcija sa vec unijetom bazom podataka
 	private static final String CONN_STRING = "jdbc:mysql://localhost/world";
 
-	private Connection connection = null;
+	private static Connection connection = null;
 
 	// konstruktor konekcije
-	public  Konekcija() {
+	public Konekcija() {
 
 	}
 
